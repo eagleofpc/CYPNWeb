@@ -2,11 +2,11 @@
 
 exports.port = process.env.PORT || 3000;
 exports.mongodb = {
-  uri: process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'localhost/drywall'
+  uri: process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'localhost/cypn'
 };
-exports.companyName = 'Acme, Inc.';
-exports.projectName = 'Drywall';
-exports.systemEmail = 'your@email.addy';
+exports.companyName = 'Chinese Young Professional Networking';
+exports.projectName = 'CYPN';
+exports.systemEmail = 'info@chinese-networking.com';
 exports.cryptoKey = 'k3yb0ardc4t';
 exports.loginAttempts = {
   forIp: 50,
