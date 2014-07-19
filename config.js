@@ -2,7 +2,7 @@
 
 exports.port = process.env.PORT || 3000;
 exports.mongodb = {
-  uri: process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'localhost/cypn'
+  uri: process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'mongodb://heroku_app27590381:ash14k7kaqglb0ei1fuuuuvk2q@ds041168.mongolab.com:41168/heroku_app27590381'
 };
 exports.companyName = 'Chinese Young Professional Networking';
 exports.projectName = 'CYPN';
